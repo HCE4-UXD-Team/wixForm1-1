@@ -179,21 +179,21 @@ $(".submit").click(function(){
 <form id="msform" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/mknqangd" method="post">
   <!-- fieldsets -->
   <fieldset>
-    <h2 class="fs-title">Prenez contact avec nous!</h2>
+    <h2 class="fs-title">Obtenir Un Devis!</h2>
     <!-- Name of Company -->
-    <input type="text" name="company" placeholder="Nom de la compagnie" />
+    <input type="text" name="company" placeholder="Nom de votre société" />
     <!-- Clients First Name -->
     <input type="text" name="firstN" placeholder="Prénom" />
     <!-- Clients Last Name -->
-    <input type="text" name="lastN" placeholder="Nom de famille" />
+    <input type="text" name="lastN" placeholder="Nom" />
     <!-- Clients Position -->
     <input type="text" name="position" placeholder="Position" />
     <!-- Clients Email -->
     <input type="text" name="email" placeholder="Email" />
     <!-- Clients Mobile Number -->
-    <input type="text" name="mobile" placeholder="Numéro de portable" />
+    <input type="text" name="mobile" placeholder="Numéro de mobile" />
     <!-- Clients Landline Number -->
-    <input type="text" name="landL" placeholder="LandLine" />
+    <input type="text" name="landL" placeholder="Ligne Fixe" />
     <!-- Clients Postal Address -->
     <input type="text" name="postal" placeholder="Adresse postale" />
     <!-- Clients Zip Code -->
@@ -206,21 +206,22 @@ $(".submit").click(function(){
     <input type="text" name="seminar" placeholder="Choix du séminaire" />
     <select id="sem" name="seminar">
     <option value="" disabled selected hidden>Choix du séminaire</option>  
-    <option value="Séminaire AI">Séminaire AI</option>
-    <option value="Séminaire Finance">Séminaire Finance</option>
-    <option value="Séminaire marketing">Séminaire marketing</option>
-    <option value="Séminaire de gestion">Séminaire de gestion</option>
+    <option value="Séminaire général">Séminaire général</option>
+    <option value="Séminaire sur la stratégie technologique 4.0">Séminaire sur la stratégie technologique 4.0</option>
+    <option value="Séminaire sur la stratégie entrepreneuriale et financière 4.0">Séminaire sur la stratégie entrepreneuriale et financière 4.0</option>
+    <option value="Séminaire Human Management 4.0 ++">Séminaire Human Management 4.0 ++</option>
+    <option value="Séminaire Human Marketing 4.0 ++">Séminaire Human Marketing 4.0 ++</option>	    
   </select>
 	
 <!-- Clients choice of products -->
 	<select id="prdct" name="products">
                     <option value="" disabled selected hidden>Choisissez un Produit</option>
-                    <option value="3month">3 Mois d'assistance</option>
-                    <option value="2days">Séminaire de 2 jours</option>
-                    <option value="2d3m">Séminaire de 2 jours + 3 Mois d'assistance</option>
+		    <option value="2days">Séminaire de 2 jours</option>		
+                    <option value="3month">4 Mois d'assistance</option>                    
+                    <option value="2d3m">Séminaire de 2 jours + 4 Mois d'assistance</option>
                     <option value="5d6m">Séminaire de 5 jours + 6 Mois d'assistance</option>
                 </select>
-                <input type="text" name="message" placeholder="Entrer un Message" />
+                <input type="text" name="message" placeholder="Vos Remarques" />
    
     <input type="submit" name="submit" class="submit action-button" value="Soumettre" />
   </fieldset>
